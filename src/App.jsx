@@ -12,7 +12,7 @@ function App() {
       {/* <h1>React Redux Toolkit</h1>
       <button className='btn' onClick={() => dispatch(clearAll())}> Clear All </button> */}
 
-      <BrowserRouter basename="/ReduxToolkit/">
+      <BrowserRouter basename="/Reduxtoolkit/">
         <Header />
         <Routes>
           <Route path="/" element={<Product />} />
